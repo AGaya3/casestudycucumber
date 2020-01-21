@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "The one where user moves to cart without adding any item in it",
+        "description": "",
+        "id": "move-to-cart-without-adding-any-item;the-one-where-user-moves-to-cart-without-adding-any-item-in-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30087812700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Alex has registered into TestMeApp",
+            "match": {
+              "location": "Cart.alex_has_registered_into_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 693414000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Alex search a particular product like headphone",
+            "match": {
+              "location": "Cart.alex_search_a_particular_product_like_headphone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12713000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "try to proceed to payment without adding any item in the cart",
+            "match": {
+              "location": "Cart.try_to_proceed_to_payment_without_adding_any_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 668862700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "TestMeApp doesn\u0027t display the cart icon",
+            "match": {
+              "location": "Cart.testmeapp_doesn_t_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Move to cart without adding any item",
+    "description": "",
+    "id": "move-to-cart-without-adding-any-item",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/MoveToCart.feature",
+    "tags": []
+  }
+]
